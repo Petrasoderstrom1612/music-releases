@@ -1,5 +1,4 @@
 import React from "react";
-
 const Icon = (props) => {
   return (
     <div className="icon-wrapper">
@@ -16,5 +15,4 @@ const Icon = (props) => {
     </div>
   );
 };
-
 export default Icon;

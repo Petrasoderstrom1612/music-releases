@@ -1,6 +1,5 @@
 import React from "react";
 import Icon from "./Icon";
-
 const Images = (props) => {
   return (
     <div className="image-wrapper">
@@ -11,5 +10,4 @@ const Images = (props) => {
     </div>
   );
 };
-
 export default Images;
