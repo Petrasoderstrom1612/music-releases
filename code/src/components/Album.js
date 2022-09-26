@@ -2,6 +2,7 @@ import React from "react";
 import Images from "./Images";
 import AlbumTitle from "./AlbumTitle";
 import Artist from "./Artist";
+
 const Album = (props) => {
   console.log(props.data);
   return (
