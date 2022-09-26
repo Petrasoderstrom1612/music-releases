@@ -6,13 +6,15 @@ const Artist = (props) => {
         {props.artistArray.map((artist, index) => {
           return (
             <a
+              key={artist.external_urls.spotify}
               className="title-links"
               href={artist.external_urls.spotify}
               target="_blank"
               rel="noopener noreferrer"
             >
               <h3 className="artist-name">
-                {artist.name}
+                {/*  prettier-ignore */}
+                {artist.name}{" "}
                 {props.artistArray.length - 1 > index ? ", " : " "}
               </h3>
             </a>
